@@ -1,0 +1,209 @@
+/*------------------------------------------------------------------------
+# "Hot Responsive Slider" WordPress plugin
+# Copyright (C) 2015 HotThemes. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotThemes
+# Website: http://hot-themes.com
+-------------------------------------------------------------------------*/
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.hot_responsive_slider_wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.hot_responsive_slider_wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_viewport {
+	background: #fff;
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager,
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+/* LOADER */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_loading {
+	min-height: 50px;
+	background: url(../images/hot_responsive_slider_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager .hot_responsive_slider_pager_item,
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_controls_auto_item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager.hot_responsive_slider_default_pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager.hot_responsive_slider_default_pager a:hover,
+.hot_responsive_slider_wrapper .hot_responsive_slider_pager.hot_responsive_slider_default_pager a.active {
+	background: #000;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_prev {
+	left: 10px;
+	background: url(../images/controls.png) no-repeat 0 -32px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_next {
+	right: 10px;
+	background: url(../images/controls.png) no-repeat -43px -32px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_prev:hover {
+	background-position: 0 0;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_next:hover {
+	background-position: -43px 0;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 9999;
+	text-decoration: none;
+	border: 0;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto {
+	text-align: center;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_start:hover,
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_start.active {
+	background-position: -86px 0;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(../images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_stop:hover,
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls_auto .hot_responsive_slider_stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls.hot_responsive_slider_has_controls_auto.hot_responsive_slider_has_pager .hot_responsive_slider_pager {
+	text-align: left;
+	width: 80%;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_controls.hot_responsive_slider_has_controls_auto.hot_responsive_slider_has_pager .hot_responsive_slider_controls_auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.hot_responsive_slider_wrapper .hot_responsive_slider_caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+/* lists */
+
+.hot_responsive_slider_viewport ul, .hot_responsive_slider_viewport li {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+	background: none !important;
+}
+
+.hot_responsive_slider_viewport li {
+	min-height: 1px;
+	min-width: 1px;
+}

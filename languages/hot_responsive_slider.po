@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hot Responsive Slider\n"
+"POT-Creation-Date: 2015-01-06 15:13+0100\n"
+"PO-Revision-Date: 2015-01-06 15:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: HotThemes <info@hot-themes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: hot_responsive_slider.php:244
+msgid "Hot Responsive Slider Options"
+msgstr ""
+
+#: hot_responsive_slider.php:248 hot_responsive_slider.php:252
+msgid "Mode"
+msgstr ""
+
+#: hot_responsive_slider.php:254
+msgid "Horizontal"
+msgstr ""
+
+#: hot_responsive_slider.php:258
+msgid "Vertical"
+msgstr ""
+
+#: hot_responsive_slider.php:262
+msgid "Fade"
+msgstr ""
+
+#: hot_responsive_slider.php:270
+msgid "Animation Speed"
+msgstr ""
+
+#: hot_responsive_slider.php:278
+msgid "Slide Margin"
+msgstr ""
+
+#: hot_responsive_slider.php:286
+msgid "Random Start"
+msgstr ""
+
+#: hot_responsive_slider.php:295
+msgid "Infinite Loop"
+msgstr ""
+
+#: hot_responsive_slider.php:304
+msgid "Hide Control On End"
+msgstr ""
+
+#: hot_responsive_slider.php:313
+msgid "Easing Type"
+msgstr ""
+
+#: hot_responsive_slider.php:327
+msgid "Pager"
+msgstr ""
+
+#: hot_responsive_slider.php:336 hot_responsive_slider.php:340
+msgid "Pager Type"
+msgstr ""
+
+#: hot_responsive_slider.php:342
+msgid "Full"
+msgstr ""
+
+#: hot_responsive_slider.php:346
+msgid "Short"
+msgstr ""
+
+#: hot_responsive_slider.php:354
+msgid "Controls"
+msgstr ""
+
+#: hot_responsive_slider.php:363
+msgid "Auto Rotation"
+msgstr ""
+
+#: hot_responsive_slider.php:372
+msgid "Start/Stop Controls"
+msgstr ""
+
+#: hot_responsive_slider.php:381
+msgid "Combine Auto Controls"
+msgstr ""
+
+#: hot_responsive_slider.php:390
+msgid "Pause Between Slides"
+msgstr ""
+
+#: hot_responsive_slider.php:398 hot_responsive_slider.php:402
+msgid "Auto Direction"
+msgstr ""
+
+#: hot_responsive_slider.php:404
+msgid "Next"
+msgstr ""
+
+#: hot_responsive_slider.php:408
+msgid "Previous"
+msgstr ""
+
+#: hot_responsive_slider.php:416
+msgid "Stop Rotation On Mouse Over"
+msgstr ""
+
+#: hot_responsive_slider.php:425
+msgid "Slider Width"
+msgstr ""
+
+#: hot_responsive_slider.php:434
+msgid "Save Changes"
+msgstr ""
+
+#: hot_responsive_slider.php:440
+msgid ""
+"<h2>Instructions </h2><p>The plugin settings can be accessed from Settings "
+"&gt; Hot Responsive Slider. Each parameter is explained in this page.</"
+"p><p>To insert slider into your post or page, use this shortcode: <code>"
+"{slider}path/to/images{/slider}</code>. The path should be entered relative "
+"to your WordPress site, in example: <code>{slider}wp-content/uploads/2015/01"
+"{/slider}</code>.</p><p>Images that you uploaded through WordPress Media "
+"Library are located in <code>wp-content/uploads</code> folder of your site. "
+"There you can see many subfolders, usually per year and month when images "
+"are uploaded. So, to include images from January 2015, the folder is "
+"<code>wp-content/uploads/2015/01</code>.</p><p>You can also upload images "
+"using FTP into any folder of your site. In this case, the uploaded image "
+"will not be included in Media Library.</p><p>It is recommended to include "
+"images with identical resolution (width and height) into the slider "
+"instance. Slider can show the images with different resolutions though.</p>"
+msgstr ""
