@@ -3,7 +3,7 @@ Contributors: HotThemes
 Donate link: http://hot-themes.com/
 Tags: slider, slideshow, image, images, jquery, gallery, media, photo, photos, picture, pictures, responsive, shortcode, touch, swipe
 Requires at least: 3.9
-Tested up to: 4.1
+Tested up to: 4.3
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
